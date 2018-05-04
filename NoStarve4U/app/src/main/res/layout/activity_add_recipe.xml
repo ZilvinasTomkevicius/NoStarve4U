@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zilvinastomkevicius.nostarve4u.Activities.AddRecipeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdbcba"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="80dp"
+                android:orientation="vertical"
+                android:id="@+id/addRecipeTable">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="7dp"
+                    android:hint="Enter recipe name"
+                    android:id="@+id/recName"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="7dp"
+                    android:hint="Write short description"
+                    android:id="@+id/recDescr"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginTop="7dp"
+                    android:hint="Time (min)"
+                    android:id="@+id/recCookT"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What products are needed?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#da7f7f"
+                    android:layout_marginTop="7dp"/>
+
+                <ListView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/listViewForRec"
+                    android:pointerIcon="text"
+                    android:background="#bdbcba"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp">
+
+                </ListView>
+
+            </LinearLayout>
+
+        <Button
+            android:text="Add +"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/addRecipeFinal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:layout_centerHorizontal="true"
+            android:elegantTextHeight="true"
+            android:onClick="AddRecipe"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="185dp"
+            android:id="@+id/loadingBar5"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

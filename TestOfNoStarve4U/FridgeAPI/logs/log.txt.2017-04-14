@@ -1,0 +1,31 @@
+2017-04-14 15:38:04,874 INFO FridgeAPI.Controllers.ProductController - veikia!
+2017-04-14 15:46:46,326 INFO FridgeAPI.Controllers.ProductController - veikia!
+2017-04-14 15:46:50,937 INFO FridgeAPI.Controllers.ProductController - veikia!
+2017-04-14 16:15:58,143 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 16:21:19,630 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 16:22:31,662 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 16:36:59,782 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 48
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 16:44:00,185 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 16:46:43,452 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 16:49:00,058 INFO FridgeAPI.Controllers.ProductController - veikia!
+2017-04-14 17:02:57,304 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 17:54:12,740 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-04-14 17:56:30,650 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Object reference not set to an instance of an object.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 47
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31

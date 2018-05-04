@@ -1,0 +1,3 @@
+2018-01-25 22:15:09,443 ERROR FridgeAPI.Controllers.ProductController - System.Exception: The parameterized query '(@Name nvarchar(4000),@Email nvarchar(4000),@Password nvarchar(4' expects the parameter '@Name', which was not supplied.
+   at ClassLibrary.BusinessServices.UserServices.Add(UserEntity user) in C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 49
+   at FridgeAPI.Controllers.UserController.Add(UserEntity user) in C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 32

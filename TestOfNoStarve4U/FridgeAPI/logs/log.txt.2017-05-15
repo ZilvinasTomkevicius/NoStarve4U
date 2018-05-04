@@ -1,0 +1,171 @@
+2017-05-15 17:49:02,241 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BusinessServices.ProductServices.Get(Int32 productID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 98
+   at FridgeAPI.Controllers.ProductController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 97
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2017-05-15 22:15:58,706 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Must declare the scalar variable "@Email".
+   at ClassLibrary.BusinessServices.UserServices.Add(UserEntity user) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 46
+   at FridgeAPI.Controllers.UserController.Add(UserEntity user) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 32
+2017-05-15 22:28:09,651 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary.BusinessServices.UserServices.Get(Int32 userID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 98
+   at FridgeAPI.Controllers.UserController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 98
+ClientConnectionId:3f62ffdd-0d73-4ccf-8ada-e5264a29123b
+Error Number:18456,State:1,Class:14
+2017-05-15 22:28:14,207 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary.BusinessServices.UserServices.Get(Int32 userID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 98
+   at FridgeAPI.Controllers.UserController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 98
+ClientConnectionId:3f62ffdd-0d73-4ccf-8ada-e5264a29123b
+Error Number:18456,State:1,Class:14
+2017-05-15 22:29:03,995 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary.BusinessServices.UserServices.Get(Int32 userID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 98
+   at FridgeAPI.Controllers.UserController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 98
+ClientConnectionId:2ca6b5f8-bbd5-456a-b576-8c2301361df7
+Error Number:18456,State:1,Class:14
+2017-05-15 22:29:07,029 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary.BusinessServices.UserServices.Get(Int32 userID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 98
+   at FridgeAPI.Controllers.UserController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 98
+ClientConnectionId:2ca6b5f8-bbd5-456a-b576-8c2301361df7
+Error Number:18456,State:1,Class:14
+2017-05-15 22:29:13,278 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BusinessServices.ProductServices.Get(Int32 productID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 98
+   at FridgeAPI.Controllers.ProductController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 97
+ClientConnectionId:7d5e264a-f4bb-475b-99a2-1b3a16f99b59
+Error Number:18456,State:1,Class:14
+2017-05-15 22:31:20,693 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.) ---> System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BusinessServices.ProductServices.Get(Int32 productID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 98
+   at FridgeAPI.Controllers.ProductController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 97
+ClientConnectionId:42854f0b-6e40-4aa7-a574-08ca8774c95e
+Error Number:233,State:0,Class:20
+2017-05-15 22:31:37,819 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BusinessServices.ProductServices.Get(Int32 productID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 98
+   at FridgeAPI.Controllers.ProductController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 97
+ClientConnectionId:5d0510b3-af2c-4148-a123-33feb7543be4
+Error Number:18456,State:1,Class:14
+2017-05-15 22:31:40,897 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BusinessServices.ProductServices.Get(Int32 productID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 98
+   at FridgeAPI.Controllers.ProductController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 97
+ClientConnectionId:5d0510b3-af2c-4148-a123-33feb7543be4
+Error Number:18456,State:1,Class:14
+2017-05-15 22:31:42,919 ERROR FridgeAPI.Controllers.ProductController - System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BusinessServices.ProductServices.Get(Int32 productID) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 98
+   at FridgeAPI.Controllers.ProductController.Get(Int32 id) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 97
+ClientConnectionId:5d0510b3-af2c-4148-a123-33feb7543be4
+Error Number:18456,State:1,Class:14
+2017-05-15 22:43:42,654 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'U_Name'. Cannot insert duplicate key in object 'dbo.UserTable'. The duplicate key value is (karope).
+The statement has been terminated.
+   at ClassLibrary.BusinessServices.UserServices.Add(UserEntity user) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 46
+   at FridgeAPI.Controllers.UserController.Add(UserEntity user) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 32
+2017-05-15 22:44:06,251 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'U_Email'. Cannot insert duplicate key in object 'dbo.UserTable'. The duplicate key value is (baba@gmail.com).
+The statement has been terminated.
+   at ClassLibrary.BusinessServices.UserServices.Add(UserEntity user) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\UserServices.cs:line 46
+   at FridgeAPI.Controllers.UserController.Add(UserEntity user) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\UserController.cs:line 32

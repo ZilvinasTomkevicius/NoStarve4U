@@ -1,0 +1,14 @@
+2017-04-18 21:29:19,888 ERROR FridgeAPI.Controllers.RecipeMatchingController - System.Exception: The variable name '@ID' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near '@tp'.
+   at BusinessServices.MatchingServices.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\MatchingServices.cs:line 78
+   at FridgeAPI.Controllers.RecipeMatchingController.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\RecipeMatchingController.cs:line 52
+2017-04-18 21:30:45,497 ERROR FridgeAPI.Controllers.RecipeMatchingController - System.Exception: The variable name '@ID' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near '@tp'.
+   at BusinessServices.MatchingServices.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\MatchingServices.cs:line 78
+   at FridgeAPI.Controllers.RecipeMatchingController.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\RecipeMatchingController.cs:line 52
+2017-04-18 21:33:37,755 ERROR FridgeAPI.Controllers.RecipeMatchingController - System.Exception: Incorrect syntax near '@tp'.
+   at BusinessServices.MatchingServices.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\MatchingServices.cs:line 78
+   at FridgeAPI.Controllers.RecipeMatchingController.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\RecipeMatchingController.cs:line 52
+2017-04-18 21:35:03,354 ERROR FridgeAPI.Controllers.RecipeMatchingController - System.Exception: Must declare the table variable "@tp".
+   at BusinessServices.MatchingServices.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\MatchingServices.cs:line 78
+   at FridgeAPI.Controllers.RecipeMatchingController.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\RecipeMatchingController.cs:line 52

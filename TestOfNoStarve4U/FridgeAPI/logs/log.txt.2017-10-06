@@ -1,0 +1,516 @@
+2017-10-06 10:12:44,065 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,061 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,081 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,123 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,165 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,204 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,598 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,629 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,657 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,685 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,739 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,778 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,816 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,849 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,883 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,911 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,941 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:44,983 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,023 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,073 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,103 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,136 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,164 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,195 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,234 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,277 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,317 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,347 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,373 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,405 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,427 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:45,458 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Obuolys).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:53,171 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:53,209 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:54,890 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:54,922 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:54,949 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:54,985 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,138 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,171 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,210 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,238 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,264 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,296 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,334 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,362 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,392 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,439 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,465 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,496 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,532 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,576 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,617 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,646 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,697 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,725 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,759 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,796 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,827 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,883 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,911 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,935 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:55,970 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:12:56,006 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Duona).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:07,840 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:07,878 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:07,907 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:07,954 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:07,977 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,003 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,030 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,054 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,080 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,103 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,124 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,165 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,188 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,209 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,230 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,250 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,300 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,330 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,353 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,391 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,412 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,434 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,456 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,479 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,501 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,524 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,548 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,570 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,590 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,609 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,629 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:08,649 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:12,976 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,022 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,053 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,081 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,107 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,129 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,150 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,172 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,195 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,220 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,245 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,267 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,289 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,328 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,351 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,373 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,395 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,416 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,443 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,482 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,504 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,544 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,565 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,589 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,610 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,632 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,656 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,682 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,706 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,745 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,764 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,785 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31
+2017-10-06 10:13:13,805 ERROR FridgeAPI.Controllers.ProductController - System.Exception: Violation of UNIQUE KEY constraint 'P_Name'. Cannot insert duplicate key in object 'dbo.Product'. The duplicate key value is (Sudas).
+The statement has been terminated.
+   at BusinessServices.ProductServices.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\ProductServices.cs:line 45
+   at FridgeAPI.Controllers.ProductController.Add(ProductEntity product) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\ProductController.cs:line 31

@@ -1,0 +1,6 @@
+2017-04-19 21:51:09,792 ERROR FridgeAPI.Controllers.MatchingController - System.Exception: ExecuteNonQuery: Connection property has not been initialized.
+   at BusinessServices.MatchingServices.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\MatchingServices.cs:line 88
+   at FridgeAPI.Controllers.MatchingController.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\MatchingController.cs:line 53
+2017-04-19 22:14:35,276 ERROR FridgeAPI.Controllers.MatchingController - System.Exception: ExecuteNonQuery: Connection property has not been initialized.
+   at BusinessServices.MatchingServices.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\BusinessServices\MatchingServices.cs:line 84
+   at FridgeAPI.Controllers.MatchingController.SendCheckedProducts(List`1 checkedProducts) in C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\FridgeAPI\Controllers\MatchingController.cs:line 53

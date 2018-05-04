@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zilvinastomkevicius.nostarve4u.Activities.RecipeDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/ListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#eab446">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="415dp"
+            android:orientation="vertical"
+            android:backgroundTint="#cfcdc9"
+            android:background="#bdbcba"
+            android:layout_margin="20dp"
+            android:id="@+id/productInfo"
+            >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_alignParentTop="true"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:text="aa"
+                android:textColor="#db167c"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/cookingTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="#4b0f2e"
+                android:textSize="16sp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:text="aa" />
+
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#4b0f2e"
+                android:textSize="16sp"
+                android:text="aa" />
+
+
+            <TextView
+                android:id="@+id/products"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Products needed:"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:textColor="#4b0f2e"
+                android:textSize="16sp" />
+
+            <ListView
+                android:id="@+id/listView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp">
+
+            </ListView>
+
+        </LinearLayout>
+
+        <Button
+            android:text="Add your recipe.."
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/addRecipe"
+            android:onClick="AddRecipe"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:layout_centerHorizontal="true"
+            android:elegantTextHeight="true"
+            />
+
+        <ProgressBar
+            android:id="@+id/loadingBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

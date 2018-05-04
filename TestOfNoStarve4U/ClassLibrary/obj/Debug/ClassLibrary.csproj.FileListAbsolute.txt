@@ -1,0 +1,26 @@
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\Test-of-NoStarve4U\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\Test-of-NoStarve4U\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\Test-of-NoStarve4U\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\Test-of-NoStarve4U\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\Test-of-NoStarve4U\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\Test-of-NoStarve4U\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas\Desktop\Programavimas\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Zilvinas Tomkevicius\Desktop\TIGERIAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+C:\Users\Zilvinas Tomkevicius\Desktop\TIGERIAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Zilvinas Tomkevicius\Desktop\TIGERIAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas Tomkevicius\Desktop\TIGERIAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Zilvinas Tomkevicius\Desktop\TIGERIAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Zilvinas Tomkevicius\Desktop\TIGERIAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Zilvinas Tomkevicius\Desktop\TIGERIAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Zilvinas Tomkevicius\Desktop\FAILAI\TIGERS\Projects\TestOfNoStarve4U_rep\TestOfNoStarve4U\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
