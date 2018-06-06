@@ -1,9 +1,16 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#da7f7f</item>
+    </style>
+    
+    <style name="Button">
+        <item name="android:alpha">0.7</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
     </style>
 
 </resources>

@@ -1,9 +1,16 @@
 package com.example.zilvinastomkevicius.nostarve4u.Activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.Slide;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -30,6 +37,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import maes.tech.intentanim.CustomIntent;
 
 public class AddRecipeActivity extends AppCompatActivity {
 
@@ -355,6 +364,17 @@ public class AddRecipeActivity extends AppCompatActivity {
         }
     }
 
+    private void SetUpWindowAnimations() {
+
+        Slide slide = new Slide();
+        slide.setDuration(1000);
+        getWindow().setExitTransition(slide);
+
+        Slide slide1 = new Slide();
+        slide1.setDuration(1000);
+        getWindow().setReturnTransition(slide1);
+    }
+
     /*
         ON CREATE METHOD
      */
@@ -362,6 +382,14 @@ public class AddRecipeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_recipe);
+
+        SetUpWindowAnimations();
+
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationAddRecipe);
+
+        Menu menu = navigation.getMenu();
+        MenuItem menuItem = menu.getItem(0);
+        menuItem.setChecked(true);
 
         ProgressBar progressBar = findViewById(R.id.loadingBar5);
         progressBar.setVisibility(View.INVISIBLE);
@@ -378,6 +406,34 @@ public class AddRecipeActivity extends AppCompatActivity {
         listView.setAdapter(myAdapter);
 
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+
+        navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch (item.getItemId()) {
+
+                    case R.id.navigation_search:
+
+                        startActivity(new Intent(AddRecipeActivity.this, ProductListActivity.class));
+                        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                        break;
+
+                    case R.id.navigation_add:
+
+                       break;
+
+                    case R.id.navigation_myrecipes:
+
+                        startActivity(new Intent(AddRecipeActivity.this, MyRecipesActivity.class));
+                        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                        break;
+                }
+
+                return false;
+            }
+        });
+
     }
 }
 

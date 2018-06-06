@@ -3,8 +3,13 @@ package com.example.zilvinastomkevicius.nostarve4u.Activities;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.Slide;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -33,7 +38,9 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class RecipeListActivity extends AppCompatActivity {
+import maes.tech.intentanim.CustomIntent;
+
+public final class RecipeListActivity extends AppCompatActivity {
 
     /*
        ASYNC TASK FOR CHECKING CONNECTION TO THE SERVER
@@ -190,11 +197,12 @@ public class RecipeListActivity extends AppCompatActivity {
             setLis.GetObjectFromStringRecipe(recipe);
         }
 
-        Intent intent = new Intent(this, RecipeDetailsActivity.class);
-
         if(SharingObjects.OneRecipeForTransfer != null) {
 
-            startActivity(intent);
+            SetUpWindowAnimations();
+
+            startActivity(new Intent(this, RecipeDetailsActivity.class));
+            CustomIntent.customType(RecipeListActivity.this, "fadein-to-fadeout");
         }
 
         else {
@@ -208,6 +216,25 @@ public class RecipeListActivity extends AppCompatActivity {
         }
     }
 
+    public void BackToProductList(View view) {
+
+        SetUpWindowAnimations();
+
+        startActivity(new Intent(RecipeListActivity.this, ProductListActivity.class));
+        CustomIntent.customType(RecipeListActivity.this, "fadein-to-fadeout");
+    }
+
+    private void SetUpWindowAnimations() {
+
+        Slide slide = new Slide();
+        slide.setDuration(1000);
+        getWindow().setExitTransition(slide);
+
+        Slide slide1 = new Slide();
+        slide1.setDuration(1000);
+        getWindow().setReturnTransition(slide1);
+    }
+
     /*
         ON CREATE METHOD
      */
@@ -215,6 +242,66 @@ public class RecipeListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe_list);
+
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationRecipeList);
+
+        Menu menu = navigation.getMenu();
+        MenuItem menuItem = menu.getItem(1);
+        menuItem.setChecked(true);
+
+        navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch (item.getItemId()) {
+
+                    case R.id.navigation_search:
+                        break;
+
+                    case R.id.navigation_add:
+
+                        if(SharingObjects.isLoggedOn) {
+
+                            startActivity(new Intent(RecipeListActivity.this, AddRecipeActivity.class));
+                            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+                            break;
+                        }
+
+                        else {
+
+                            Context context = getApplicationContext();
+                            CharSequence text = "You must log in in order to add!";
+                            int duration = Toast.LENGTH_SHORT;
+
+                            Toast toast = Toast.makeText(context, text, duration);
+                            toast.show();
+                            break;
+                        }
+
+                    case R.id.navigation_myrecipes:
+
+                        if(SharingObjects.isLoggedOn) {
+
+                            startActivity(new Intent(RecipeListActivity.this, MyRecipesActivity.class));
+                            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                            break;
+                        }
+
+                        else {
+
+                            Context context = getApplicationContext();
+                            CharSequence text = "You must log in in order to have my recipes!";
+                            int duration = Toast.LENGTH_SHORT;
+
+                            Toast toast = Toast.makeText(context, text, duration);
+                            toast.show();
+                            break;
+                        }
+                }
+
+                return false;
+            }
+        });
 
         ProgressBar progressBar = findViewById(R.id.loadingBar2);
 

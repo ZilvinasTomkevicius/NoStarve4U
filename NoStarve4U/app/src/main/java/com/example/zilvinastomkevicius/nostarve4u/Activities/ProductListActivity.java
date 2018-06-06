@@ -4,9 +4,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.Slide;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -48,7 +53,9 @@ import java.util.Set;
 import java.util.jar.Attributes;
 import java.lang.Thread.UncaughtExceptionHandler;
 
-public class ProductListActivity extends AppCompatActivity {
+import maes.tech.intentanim.CustomIntent;
+
+public final class ProductListActivity extends AppCompatActivity {
 
     /*
         ASYNC TASK FOR CHECKING CONNECTION TO THE SERVER
@@ -60,8 +67,6 @@ public class ProductListActivity extends AppCompatActivity {
             String url = uri[0];
 
             try {
-
-
 
                 URL myUrl = new URL(url);
                 HttpURLConnection urlConnection = (HttpURLConnection)myUrl.openConnection();
@@ -145,22 +150,20 @@ public class ProductListActivity extends AppCompatActivity {
 
             SharingObjects.ProductForStatic = setList.SetObjectListProduct(products);
 
-            Action(products);
+            String[] productList = setList.SetProductListName(products);
+
+            Action(productList);
         }
     }
 
     /*
         METHOD WHICH DISPLAYS PRODUCT LIST
      */
-    public void Action(Product[] products) {
+    public void Action(String[] productList) {
 
         ListView listView = (ListView) findViewById(R.id.listView1);
 
         SetList setList = new SetList();
-
-        String[] productList = setList.SetProductListName(products);
-
-        ArrayList<Product> productArrayList = SharingObjects.ProductForStatic;
 
         ProgressBar progressBar = findViewById(R.id.loadingBar);
 
@@ -179,8 +182,6 @@ public class ProductListActivity extends AppCompatActivity {
        A BUTTON_CLICK METHOD WHICH COLLECTS CHECKED ITEMS AND INITIATES AN INTENT TO RecipeListActivity.java
      */
     public void IntentToRecipeListActivity(View view){
-
-        Intent intent = new Intent(this, RecipeListActivity.class);
 
         ListView listView = (ListView) findViewById(R.id.listView1);
 
@@ -212,7 +213,10 @@ public class ProductListActivity extends AppCompatActivity {
 
         if(SharingObjects.ProductForTransfer.size() > 0) {
 
-            startActivity(intent);
+            SetUpWindowAnimations();
+
+            startActivity(new Intent(this, RecipeListActivity.class));
+            CustomIntent.customType(ProductListActivity.this, "fadein-to-fadeout");
         }
 
         else {
@@ -226,6 +230,17 @@ public class ProductListActivity extends AppCompatActivity {
         }
     }
 
+    private void SetUpWindowAnimations() {
+
+        Slide slide = new Slide();
+        slide.setDuration(1000);
+        getWindow().setExitTransition(slide);
+
+        Slide slide1 = new Slide();
+        slide1.setDuration(1000);
+        getWindow().setReturnTransition(slide1);
+    }
+
     /*
         ON CREATE METHOD
      */
@@ -234,12 +249,66 @@ public class ProductListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_list);
 
-        ProgressBar progressBar = findViewById(R.id.loadingBar);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationProductList);
 
-        progressBar.setVisibility(View.VISIBLE);
+        Menu menu = navigation.getMenu();
+        MenuItem menuItem = menu.getItem(1);
+        menuItem.setChecked(true);
 
-        final String productUri = "https://otherpurplemouse9.conveyor.cloud/api/product/getlist";
+        navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        new ProductListActivity.CheckConnectionTask().execute(productUri);
+                switch (item.getItemId()) {
+
+                    case R.id.navigation_search:
+                        break;
+
+                    case R.id.navigation_add:
+
+                        if(SharingObjects.isLoggedOn) {
+
+                            startActivity(new Intent(ProductListActivity.this, AddRecipeActivity.class));
+                            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+                            break;
+                        }
+
+                        else {
+
+                            Context context = getApplicationContext();
+                            CharSequence text = "You must log in in order to add!";
+                            int duration = Toast.LENGTH_SHORT;
+
+                            Toast toast = Toast.makeText(context, text, duration);
+                            toast.show();
+
+                            break;
+                        }
+
+                    case R.id.navigation_myrecipes:
+
+                        if(SharingObjects.isLoggedOn) {
+
+                            startActivity(new Intent(ProductListActivity.this, MyRecipesActivity.class));
+                            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                            break;
+                        }
+
+                        else {
+
+                            Context context = getApplicationContext();
+                            CharSequence text = "You must log in in order to have my recipes!";
+                            int duration = Toast.LENGTH_SHORT;
+
+                            Toast toast = Toast.makeText(context, text, duration);
+                            toast.show();
+
+                            break;
+                        }
+                }
+
+                return false;
+            }
+        });
     }
 }

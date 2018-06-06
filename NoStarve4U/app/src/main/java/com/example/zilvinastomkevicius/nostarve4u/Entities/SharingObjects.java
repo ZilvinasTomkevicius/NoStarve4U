@@ -21,4 +21,10 @@ public final class SharingObjects {
     public static  ArrayList<Product> ProductForStatic = new ArrayList<>();
 
     public static RecipeProducts RecipeProductsForTransfer = new RecipeProducts();
+
+    public static final   ArrayList<Recipe> MyRecipes = new ArrayList<>();
+
+    public static boolean isLoggedOn;
+
+    public static User TempUser = new User();
 }

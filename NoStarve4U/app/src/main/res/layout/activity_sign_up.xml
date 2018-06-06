@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zilvinastomkevicius.nostarve4u.Activities.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter email"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:fontFamily="@font/advent_pro"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/EmailsignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:fontFamily="@font/advent_pro"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/PasswordsignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:inputType="textPassword"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Must be at least 8 symbols in length"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm password"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:fontFamily="@font/advent_pro"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/PasswordsignUpRep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:inputType="textPassword"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/WrongPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passwords don't match"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"/>
+
+        <ProgressBar
+            android:id="@+id/loadingBarSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:indeterminate="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:onClick="SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign Up"
+            android:layout_margin="3dp"
+            android:background="#00bf9a"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

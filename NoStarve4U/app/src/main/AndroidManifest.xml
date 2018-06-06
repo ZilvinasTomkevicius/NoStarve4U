@@ -5,6 +5,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/carrot"
@@ -12,13 +17,6 @@
         android:roundIcon="@drawable/carrot"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Activities.ProductListActivity"
             android:label="What products do you have?" />
@@ -31,8 +29,26 @@
         <activity
             android:name=".Activities.AddRecipeActivity"
             android:label="Add a new recipe"
-            android:windowSoftInputMode="adjustPan"></activity>
-        <activity android:name=".Activities.AddProductActivity"></activity>
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Activities.LaunchingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.SignUpActivity" />
+        <activity android:name=".Activities.MyRecipesActivity" />
+        <activity android:name=".Activities.MainActivity"></activity>
     </application>
 
 </manifest>

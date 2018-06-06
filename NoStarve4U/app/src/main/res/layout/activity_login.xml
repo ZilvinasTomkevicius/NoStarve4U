@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zilvinastomkevicius.nostarve4u.Activities.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bitmap">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:fontFamily="serif-monospace"
+                android:text="NoStarve4U"
+                android:textColor="#00bf9a"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter email"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:fontFamily="@font/advent_pro"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/EmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:fontFamily="@font/advent_pro"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/PasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:inputType="textPassword"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/WrongData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Invalid email or password"
+                android:gravity="center_horizontal"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#ff0000"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:text="Log in"
+                android:onClick="LogOn"
+                android:background="#00bf9a"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:onClick="Continue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Continue without logging in"
+                android:background="#e8b2b2"
+                android:textColor="#000000"
+                android:layout_margin="3dp"/>
+
+            <ProgressBar
+                android:id="@+id/loadingBarLogin"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:indeterminate="true"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:gravity="center_horizontal"
+                android:textSize="16sp"
+                android:fontFamily="@font/advent_pro"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:fontFamily="@font/advent_pro"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="#00bf9a"
+                android:onClick="IntentToSignUp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

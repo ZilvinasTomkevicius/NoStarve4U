@@ -1,153 +1,132 @@
 package com.example.zilvinastomkevicius.nostarve4u.Activities;
 
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.os.AsyncTask;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.zilvinastomkevicius.nostarve4u.Entities.Product;
+import com.example.zilvinastomkevicius.nostarve4u.AsyncTasks.ProductAsyncTask;
 import com.example.zilvinastomkevicius.nostarve4u.Entities.SharingObjects;
+import com.example.zilvinastomkevicius.nostarve4u.Fragments.AddRecipeFragment;
+import com.example.zilvinastomkevicius.nostarve4u.Fragments.ProductListFragment;
 import com.example.zilvinastomkevicius.nostarve4u.R;
 import com.example.zilvinastomkevicius.nostarve4u.Set.SetList;
+import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitorWithSerializerProvider;
 
-import org.jsoup.Jsoup;
-import org.jsoup.select.Elements;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.web.client.RestTemplate;
-import org.w3c.dom.Document;
+import java.util.Arrays;
+import java.util.List;
 
-/*
-    STARTING ACTIVITY
- */
 public class MainActivity extends AppCompatActivity {
 
     /*
-        ASYNC TASK FOR GETTING THE PRODUCT LIST
+        PROBLEMA TAME, KAD KAI NAUDOJU ProductListFragment OBJEKTA (PO KOMNTARU), TAI MAN META, KAD View, GRAZINTAS IS ProductListFragmen
+        FRAGMENTO YRA null.
      */
-    class ProductLoadingTask extends AsyncTask<String, Void, ResponseEntity<Product[]>> {
+    private ProductListFragment productListFragment;
 
-        protected ResponseEntity<Product[]> doInBackground(String... uri) {
-
-            final String url = uri[0];
-
-            RestTemplate restTemplate = new RestTemplate();
-            try {
-
-                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
-
-                HttpHeaders httpHeaders = new HttpHeaders();
-
-                httpHeaders.setContentType(MediaType.APPLICATION_JSON);
-
-                HttpEntity<String> entity = new HttpEntity<String>(httpHeaders);
-
-                ResponseEntity<Product[]> productList = restTemplate.exchange(url, HttpMethod.GET, entity, Product[].class);
-
-                HttpStatus code = productList.getStatusCode();
-
-                return productList;
-
-            } catch (Exception ex) {
-
-                String message = ex.getMessage();
-
-                return null;
-            }
-        }
-
-        protected void onPostExecute(ResponseEntity<Product[]> result) {
-
-            HttpStatus statusCode = result.getStatusCode();
-
-            Product[] products = result.getBody();
-
-            SetList setList = new SetList();
-
-            SharingObjects.ProductForStatic = setList.SetObjectListProduct(products);
-        }
-    }
-
-    /*
-        STARTING ON CREATE METHOD
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigationMain);
+
+        navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                int id = item.getItemId();
+
+                if(id == R.id.navigation_search) {
+
+                    productListFragment = new ProductListFragment();
+
+                    android.support.v4.app.FragmentManager fragmentManager1 = getSupportFragmentManager();
+                    fragmentManager1.beginTransaction().replace(R.id.fragment, productListFragment).commit();
+
+                    Menu menu = navigation.getMenu();
+                    MenuItem menuItem = menu.getItem(1);
+                    menuItem.setChecked(true);
+
+                    if(SharingObjects.ProductForStatic.size() > 0) {
+
+                        SetList setList = new SetList();
+
+                        String[] productList = setList.SetProductArrayListName(SharingObjects.ProductForStatic);
+
+                        DisplayProductList(productList);
+                    }
+
+                    else {
+
+                        final String productUri = "https://otherpurplemouse9.conveyor.cloud/api/product/getlist";
+
+                        ProductAsyncTask.CheckConnectionTask checkConnectionTask = new ProductAsyncTask().new CheckConnectionTask();
+                        checkConnectionTask.execute(productUri);
+
+                        productListFragment = new ProductListFragment();
+
+                        productListFragment.ProductListLoadingBarVISIBLE();
+                    }
+                }
+
+                else if (id == R.id.navigation_add) {
+
+                    AddRecipeFragment addRecipeFragment = new AddRecipeFragment();
+
+                    android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.fragment, addRecipeFragment).commit();
+
+                    Menu menu = navigation.getMenu();
+                    MenuItem menuItem = menu.getItem(0);
+                    menuItem.setChecked(true);
+                }
+
+                return false;
+            }
+        });
     }
 
     /*
-        METHODS FOR CHECKING GADGET'S INTERNET CONNECTION
-     */
-    private boolean isNetworkConnected() {
+      METHOD WHICH DISPLAYS PRODUCT LIST
+   */
+    public void DisplayProductList(String[] productList) {
 
-        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        productListFragment = new ProductListFragment();
 
-        return cm.getActiveNetworkInfo() != null;
+        ListView listView = productListFragment.ReturnProductListView();
+
+        productListFragment.ProductListLoadingBarINVISIBLE();
+
+        Arrays.sort(productList);
+
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_multiple_choice, productList);
+
+        listView.setAdapter(myAdapter);
+        listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
     }
 
-    /*
-        A BUTTON_CLICK METHOD WHICH INITIATES AN INTENT TO RecipeListActivity.java IF INTERNET CONNECTION IS AVAILABLE
-     */
-    public void IntentToProductListActivity(View view)
-    {
-        Intent intent = new Intent(this, ProductListActivity.class);
+    public void NoConnectionProductList() {
 
-        if(isNetworkConnected() != false) {
-            startActivity(intent);
-        }
+        productListFragment = new ProductListFragment();
 
-        else {
+        productListFragment.ProductListLoadingBarINVISIBLE();
 
-            Context context = getApplicationContext();
-            CharSequence text = "Turn on Wi-fi or data roaming!";
-            int duration = Toast.LENGTH_SHORT;
-
-            Toast toast = Toast.makeText(context, text, duration);
-            toast.show();
-        }
-
-    }
-
-    public void IntentToAddRecipeActivity(View view) {
-
-        Intent intent = new Intent(this, AddRecipeActivity.class);
-
-        if(isNetworkConnected() != false) {
-
-            final String productUri = "https://otherpurplemouse9.conveyor.cloud/api/product/getlist";
-
-            new MainActivity.ProductLoadingTask().execute(productUri);
-
-            startActivity(intent);
-        }
-
-        else {
-
-            Context context = getApplicationContext();
-            CharSequence text = "Turn on Wi-fi or data roaming!";
-            int duration = Toast.LENGTH_SHORT;
-
-            Toast toast = Toast.makeText(context, text, duration);
-            toast.show();
-        }
-    }
-
-    public void IntentToMyRecipesActivity(View view)
-    {
         Context context = getApplicationContext();
-        CharSequence text = "Doesn't work yet!";
-        int duration = Toast.LENGTH_SHORT;
+        CharSequence text = "No connection to the server.";
+        int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
